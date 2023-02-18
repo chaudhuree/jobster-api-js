@@ -43,7 +43,7 @@ module.exports = router;
 
 - npm install moment
 - import mongoose and moment
-- monent is used to format date
+- moment is used to format date
 
 controllers/jobs
 

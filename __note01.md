@@ -1,6 +1,6 @@
 # Jobster API
 
-> its the enend version of jobs api
+> its the updated version of jobs api
 
 #### Setup
 
@@ -27,7 +27,7 @@ JWT_LIFETIME=
 npm start
 ```
 
-- server console will show see "Server is listening ...." text
+- server console will show  "Server is listening ...." text
 
 #### Spring Cleaning
 
@@ -55,7 +55,7 @@ app.use(
 );
 ```
 
-> we will use it in diractly jobs route to prevent spamming
+> we will use it in diractly auth route to prevent spamming
 
 #### Remove CORS
 
@@ -69,7 +69,7 @@ app.use(cors());
 
 #### Package.json
 
-- add "dev" script with nodemon
+- add "startDev" script with nodemon
 - change engines to current version (in my case 16)
 
 package.json
